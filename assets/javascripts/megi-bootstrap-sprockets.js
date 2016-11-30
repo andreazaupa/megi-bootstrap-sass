@@ -1,0 +1,12 @@
+//= require ./megi-bootstrap/transition
+//= require ./megi-bootstrap/alert
+//= require ./megi-bootstrap/button
+//= require ./megi-bootstrap/carousel
+//= require ./megi-bootstrap/collapse
+//= require ./megi-bootstrap/dropdown
+//= require ./megi-bootstrap/modal
+//= require ./megi-bootstrap/tab
+//= require ./megi-bootstrap/affix
+//= require ./megi-bootstrap/scrollspy
+//= require ./megi-bootstrap/tooltip
+//= require ./megi-bootstrap/popover

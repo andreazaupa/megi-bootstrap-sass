@@ -1,10 +1,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bootstrap-sass/version'
+require 'megi-bootstrap-sass/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'bootstrap-sass'
-  s.version  = Bootstrap::VERSION
+  s.name     = 'megi-bootstrap-sass'
+  s.version  = "0.3.7"
   s.authors  = ['Thomas McDonald']
   s.email    = 'tom@conceptcoding.co.uk'
   s.summary  = 'bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.'

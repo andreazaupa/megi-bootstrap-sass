@@ -1,5 +1,5 @@
-require 'bootstrap-sass/version'
-module Bootstrap
+require 'megi-bootstrap-sass/version'
+module MegiBootstrap
   class << self
     # Inspired by Kaminari
     def load!
@@ -67,7 +67,7 @@ module Bootstrap
 
     def register_compass_extension
       ::Compass::Frameworks.register(
-          'bootstrap',
+          'megi-bootstrap',
           :version               => Bootstrap::VERSION,
           :path                  => gem_path,
           :stylesheets_directory => stylesheets_path,
@@ -76,7 +76,7 @@ module Bootstrap
     end
 
     def register_rails_engine
-      require 'bootstrap-sass/engine'
+      require 'megi-bootstrap-sass/engine'
     end
 
     def register_lotus
@@ -91,4 +91,4 @@ module Bootstrap
   end
 end
 
-Bootstrap.load!
+MegiBootstrap.load!
