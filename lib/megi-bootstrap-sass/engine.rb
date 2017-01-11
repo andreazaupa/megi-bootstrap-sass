@@ -1,4 +1,4 @@
-module Bootstrap
+module MegiBootstrap
   module Rails
     class Engine < ::Rails::Engine
       initializer 'megi-bootstrap-sass.assets.precompile' do |app|
